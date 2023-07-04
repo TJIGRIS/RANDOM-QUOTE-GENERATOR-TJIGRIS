@@ -18,7 +18,9 @@ export function useQuoteAuthor({ quotesRandom }) {
   }
 
   useEffect(() => {
-    getQuotesAuthor(quotesRandom[0]?.authorSlug)
+    if (quotesRandom.length > 0) {
+      getQuotesAuthor(quotesRandom[0].authorSlug)
+    }
   }, [quotesRandom])
 
   return { quotesAuthor, getQuotesAuthor, loadAuthor: load }
