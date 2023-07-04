@@ -9,11 +9,11 @@
 <div align="center">
   <h3>
     // modificar start --------------------------------------------------------------------
-    <a href="https://tjigris.github.io/RANDOM-QUOTE-GENERATOR-TJIGRIS/">
+    <a href="https://{tjigris.github.io/TODO-APP-TJIGRIS/all}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/TJIGRIS/RANDOM-QUOTE-GENERATOR-TJIGRIS.git">
+    <a href="https://{github.com/TJIGRIS/TODO-APP-TJIGRIS.git}">
       Solution
     </a>
     // modificar end --------------------------------------------------------------------
