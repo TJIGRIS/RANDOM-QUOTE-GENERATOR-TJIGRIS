@@ -13,7 +13,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{github.com/TJIGRIS/TODO-APP-TJIGRIS.git}">
+    <a href="https://{github.com/TJIGRIS/RANDOM-QUOTE-GENERATOR-TJIGRIS.git}">
       Solution
     </a>
     <!-- // modificar end -------------------------------------------------------------------- -->
@@ -39,6 +39,7 @@
 ## Overview
 
 <!-- // modificar start -------------------------------------------------------------------- -->
+
 ![screenshot](./src/assets/page.png)
 
 - Where can I see your demo?
