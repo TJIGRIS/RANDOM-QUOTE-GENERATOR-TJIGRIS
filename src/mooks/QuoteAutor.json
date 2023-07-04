@@ -1,0 +1,49 @@
+{
+  "count": 2,
+  "totalCount": 2,
+  "page": 1,
+  "totalPages": 1,
+  "lastItemIndex": null,
+  "results": [
+    {
+      "_id": "4XDrxqT1-YwP",
+      "content": "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.",
+      "author": "Nikola Tesla",
+      "tags": ["Famous Quotes"],
+      "authorSlug": "nikola-tesla",
+      "length": 104,
+      "dateAdded": "2020-03-27",
+      "dateModified": "2023-04-14"
+    },
+    {
+      "_id": "F8x4_uMBx-eO",
+      "content": "Let the future tell the truth and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine.",
+      "author": "Nikola Tesla",
+      "tags": ["Future", "Famous Quotes"],
+      "authorSlug": "nikola-tesla",
+      "length": 170,
+      "dateAdded": "2019-11-26",
+      "dateModified": "2023-04-14"
+    },
+    {
+      "_id": "4XDrxqT1-YwP",
+      "content": "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.",
+      "author": "Nikola Tesla",
+      "tags": ["Famous Quotes"],
+      "authorSlug": "nikola-tesla",
+      "length": 104,
+      "dateAdded": "2020-03-27",
+      "dateModified": "2023-04-14"
+    },
+    {
+      "_id": "F8x4_uMBx-eO",
+      "content": "Let the future tell the truth and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine.",
+      "author": "Nikola Tesla",
+      "tags": ["Future", "Famous Quotes"],
+      "authorSlug": "nikola-tesla",
+      "length": 170,
+      "dateAdded": "2019-11-26",
+      "dateModified": "2023-04-14"
+    }
+  ]
+}
