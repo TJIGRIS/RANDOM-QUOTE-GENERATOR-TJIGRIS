@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    // modificar start --------------------------------------------------------------------
+    <!-- // modificar start -------------------------------------------------------------------- -->
     <a href="https://{tjigris.github.io/TODO-APP-TJIGRIS/all}">
       Demo
     </a>
@@ -16,7 +16,7 @@
     <a href="https://{github.com/TJIGRIS/TODO-APP-TJIGRIS.git}">
       Solution
     </a>
-    // modificar end --------------------------------------------------------------------
+    <!-- // modificar end -------------------------------------------------------------------- -->
     <span> | </span>
     <a href="https://devchallenges.io/challenges/3JFYedSOZqAxYuOCNmYD">
       Challenge
@@ -38,8 +38,8 @@
 
 ## Overview
 
+<!-- // modificar start -------------------------------------------------------------------- -->
 ![screenshot](./src/assets/page.png)
-// modificar start --------------------------------------------------------------------
 
 - Where can I see your demo?
 
@@ -49,7 +49,7 @@ just click on the random button to get a new quote and on the author's name to s
 
 I was able to connect to an api very easily and provide the necessary data.
 
-// modificar end --------------------------------------------------------------------
+<!-- // modificar end -------------------------------------------------------------------- -->
 
 - What have you learned/improved?
 
@@ -79,12 +79,12 @@ This application/site was created as a submission to a [DevChallenges](https://d
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-// modificar start --------------------------------------------------------------------
+# // modificar start --------------------------------------------------------------------
 
 # Clone this repository
 $ git clone https://github.com/TJIGRIS/RANDOM-QUOTE-GENERATOR-TJIGRIS.git
 
-// modificar end --------------------------------------------------------------------
+# // modificar end --------------------------------------------------------------------
 
 # Install dependencies
 $ npm install
