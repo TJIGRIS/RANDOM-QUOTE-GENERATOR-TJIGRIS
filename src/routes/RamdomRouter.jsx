@@ -12,6 +12,7 @@ export function RamdomRouter() {
         <Header />
         <Routes>
           <Route path="/" element={<Quote />} />
+          <Route path="/quote" element={<Quote />} />
           <Route path="/list-quotes" element={<ListQuotes />} />
         </Routes>
       </BrowserRouter>

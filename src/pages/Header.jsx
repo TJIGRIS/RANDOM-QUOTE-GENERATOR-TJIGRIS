@@ -24,7 +24,7 @@ export const Header = () => {
 
       {pathname === '/list-quotes' && (
         <Link
-          to="/"
+          to="/quote"
           className="flex items-center gap-2 hover:bg-black p-2 hover:text-white duration-300"
         >
           <BsArrowLeftSquare size={24} />
