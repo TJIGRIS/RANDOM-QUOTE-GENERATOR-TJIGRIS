@@ -9,7 +9,7 @@
 <div align="center">
   <h3>
     <!-- // modificar start -------------------------------------------------------------------- -->
-    <a href="https://{tjigris.github.io/TODO-APP-TJIGRIS/all}">
+    <a href="https://random-quote-generator-tjigris.netlify.app/">
       Demo
     </a>
     <span> | </span>
