@@ -3,7 +3,7 @@ import { QuotesRandom } from '../services/APIS'
 
 export function useQuoteRandom() {
   const [quotesRandom, setQuotesRandom] = useState([])
-  const [load, setLoad] = useState(false)
+  const [load, setLoad] = useState(true)
 
   const getQuotesRandom = async () => {
     try {
