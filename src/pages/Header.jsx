@@ -1,7 +1,8 @@
 import React from 'react'
+import { useQuoteContext } from '../context/QuoteProvider'
+
 import { MdAutorenew } from 'react-icons/md'
 import { BsArrowLeftSquare } from 'react-icons/bs'
-import { useQuoteContext } from '../context/QuoteProvider'
 import { Link, useLocation } from 'react-router-dom'
 
 export const Header = () => {

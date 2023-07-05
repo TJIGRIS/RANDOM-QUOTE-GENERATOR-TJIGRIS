@@ -3,7 +3,7 @@ import { QuotesAuthor } from '../services/APIS'
 
 export function useQuoteAuthor({ quotesRandom }) {
   const [quotesAuthor, setQuotesAuthor] = useState([])
-  const [load, setload] = useState(true)
+  const [load, setload] = useState(false)
 
   const getQuotesAuthor = async (author) => {
     try {

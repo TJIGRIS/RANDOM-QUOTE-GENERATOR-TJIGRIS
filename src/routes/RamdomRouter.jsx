@@ -7,15 +7,15 @@ import { ListQuotes } from '../pages/ListQuotes'
 
 export function RamdomRouter() {
   return (
-    <div className="container mx-auto pt-9 pb-6">
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="container mx-auto pt-9 pb-6">
         <Header />
         <Routes>
           <Route path="/" element={<Quote />} />
           <Route path="/quote" element={<Quote />} />
           <Route path="/list-quotes" element={<ListQuotes />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   )
 }
