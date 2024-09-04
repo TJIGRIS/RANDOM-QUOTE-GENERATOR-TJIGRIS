@@ -1,12 +1,21 @@
-const URL_AUTHOR = 'https://api.quotable.io/quotes?author='
-const RANDOM_URL = 'https://api.quotable.io/quotes/random'
+const URL_CATEGORY = 'https://api.api-ninjas.com/v1/quotes?category='
+const RANDOM_URL = 'https://api.api-ninjas.com/v1/quotes'
 
-export const QuotesAuthor = async (author) => {
+const API_KEY = 'aPPH20xExYQxKugrQPqFYQ==yxKbqWJNk9VwxNBx'
+
+export const QuotesAuthor = async (category) => {
+  console.log(category)
   try {
-    const result = await fetch(URL_AUTHOR + author)
+    const result = await fetch(URL_CATEGORY + category, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Api-Key': API_KEY,
+      },
+    })
     const data = await result.json()
-    const { results } = data
-    return results
+
+    return data
   } catch (e) {
     throw new Error('Error al buscar el autor')
   }
@@ -14,7 +23,14 @@ export const QuotesAuthor = async (author) => {
 
 export const QuotesRandom = async () => {
   try {
-    const result = await fetch(RANDOM_URL)
+    const result = await fetch(RANDOM_URL, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Api-Key': API_KEY,
+      },
+    })
+
     const data = await result.json()
     return data
   } catch (e) {
